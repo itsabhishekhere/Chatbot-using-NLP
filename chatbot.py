@@ -1,7 +1,7 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
-
+import nltk
 # Creating ChatBot Instance
 chatbot = ChatBot(
     'CoronaBot',
