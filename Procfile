@@ -1,1 +1,1 @@
-web: gunicorn <chatbot-catalyst>.wsgi --log-file -
+web: gunicorn app:app
